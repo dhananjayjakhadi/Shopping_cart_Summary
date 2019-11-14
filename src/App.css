@@ -1,0 +1,33 @@
+.card {
+  border: 1px;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+  width: 350px;
+  padding: 1em;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.purchase-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px, 0 rgba(0, 0, 0, 0.19);
+  padding: 1em;
+}
+
+.purchase-card > .show-grid{
+  padding-bottom: 1.5em;
+}
+
+.item-details-button:focus {
+  outline : none;
+  text-align: left;
+}
+
+.price-strike {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.promo-code-button:focus {
+  outline : none;
+  text-align: left;
+}
